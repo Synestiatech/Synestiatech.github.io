@@ -1,0 +1,72 @@
+/* Main CSS */
+html,
+#page {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: purple;
+    font: normal 12px/2.0em Sans-Serif;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: orangered;
+}
+
+#page {
+    background: none;
+}
+
+#header,
+#footer,
+#top-nav,
+#content,
+#content #contentbar,
+#content #sidebar {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navagation */
+#top-nav {
+    margin: 0 auto;
+    padding: 0px 0 0;
+    height: 37px;
+    float: right;
+}
+
+#top-nav ul {
+    list-style: none;
+    padding: 0;
+    height: 37px;
+    float: left;
+}
+
+#top-nav ul li {
+    margin: 0;
+    padding: 0 0 0 8px;
+    float: left;
+}
+
+#top-nav ul li a {
+    display: block;
+    margin: 0;
+    padding: 8px 20px;
+    color: red;
+    text-decoration: none;
+}
+
+#top-nav ul li.active a,
+#top-nav ul li a:hover {
+    color: black;
+}
